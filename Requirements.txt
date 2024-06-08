@@ -1,0 +1,12 @@
+from langchain_text_splitters import RecursiveCharacterTextSplitter==0.0.1
+from langchain_core.prompts import PromptTemplate==0.1.52
+from langchain.chains import RetrievalQA==0.1.19
+import torch==2.3.0+cpu
+import cohere==5.3.4
+from langchain_cohere import ChatCohere==0.1.4
+from langchain_community.document_loaders import PyPDFLoader==0.0.38
+from langchain_community.document_loaders import TextLoader==0.0.38
+from langchain_community.document_loaders.merge import MergedDataLoader==0.0.38
+from langchain_community.embeddings import HuggingFaceEmbeddings==0.0.38
+from langchain_community.vectorstores import Qdrant==0.0.38
+import re==2.2.1
